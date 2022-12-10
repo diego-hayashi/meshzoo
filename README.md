@@ -28,7 +28,7 @@ meshzoo.
 
 #### Triangle
 
-<img src="https://nschloe.github.io/meshzoo/triangle.svg" width="20%">
+<img src="figs/triangle.svg" width="20%">
 
 ```python
 import meshzoo
@@ -51,8 +51,8 @@ bary, cells = meshzoo.triangle(8)
 
 <table width="100%">
   <tr width="100%">
-  <td width="50%"><img src="https://nschloe.github.io/meshzoo/rectangle.svg"/></td>
-  <td width="50%"><img src="https://nschloe.github.io/meshzoo/rectangle-quad.svg"/></td>
+  <td width="50%"><img src="figs/rectangle.svg"/></td>
+  <td width="50%"><img src="figs/rectangle-quad.svg"/></td>
   </tr>
 </table>
 
@@ -75,7 +75,7 @@ points, cells = meshzoo.rectangle_quad(
 
 #### Regular polygon
 
-| <img src="https://nschloe.github.io/meshzoo/4gon.svg" width="70%"> | <img src="https://nschloe.github.io/meshzoo/6gon.svg" width="70%"> | <img src="https://nschloe.github.io/meshzoo/9gon.svg" width="70%"> |
+| <img src="figs/4gon.svg" width="70%"> | <img src="figs/6gon.svg" width="70%"> | <img src="figs/9gon.svg" width="70%"> |
 | :----------------------------------------------------------------: | :----------------------------------------------------------------: | :----------------------------------------------------------------: |
 |                        `meshzoo.ngon(4, 8)`                        |                        `meshzoo.ngon(6, 8)`                        |                        `meshzoo.ngon(9, 8)`                        |
 
@@ -87,7 +87,7 @@ points, cells = meshzoo.ngon(5, 11)
 
 #### Disk
 
-| <img src="https://nschloe.github.io/meshzoo/4gon_disk.svg" width="70%"> | <img src="https://nschloe.github.io/meshzoo/6gon_disk.svg" width="70%"> | <img src="https://nschloe.github.io/meshzoo/9gon_disk.svg" width="70%"> |
+| <img src="figs/4gon_disk.svg" width="70%"> | <img src="figs/6gon_disk.svg" width="70%"> | <img src="figs/9gon_disk.svg" width="70%"> |
 | :---------------------------------------------------------------------: | :---------------------------------------------------------------------: | :---------------------------------------------------------------------: |
 |                          `meshzoo.disk(4, 8)`                           |                          `meshzoo.disk(6, 8)`                           |                          `meshzoo.disk(9, 8)`                           |
 
@@ -103,7 +103,7 @@ points, cells = meshzoo.disk_quad(10, cell_type="quad4")  # or "quad8", "quad9"
 
 #### Möbius strip
 
-<img src="https://nschloe.github.io/meshzoo/moebius.png" width="20%">
+<img src="figs/moebius.png" width="20%">
 
 ```python
 import meshzoo
@@ -113,7 +113,7 @@ points, cells = meshzoo.moebius(num_twists=1, nl=60, nw=11)
 
 #### Sphere (surface)
 
-| <img src="https://nschloe.github.io/meshzoo/uv_sphere.png" width="80%"> | <img src="https://nschloe.github.io/meshzoo/geo-sphere.png" width="60%"> |
+| <img src="figs/uv_sphere.png" width="80%"> | <img src="figs/geo-sphere.png" width="60%"> |
 | :---------------------------------------------------------------------: | :----------------------------------------------------------------------: |
 
 ```python
@@ -132,13 +132,13 @@ highest-quality (most equilateral) triangles.
 
 All cells are oriented such that its normals point outwards.
 
-| <img src="https://nschloe.github.io/meshzoo/tetra-sphere.png" width="70%"> | <img src="https://nschloe.github.io/meshzoo/octa-sphere.png" width="70%"> | <img src="https://nschloe.github.io/meshzoo/icosa-sphere.png" width="70%"> |
+| <img src="figs/tetra-sphere.png" width="70%"> | <img src="figs/octa-sphere.png" width="70%"> | <img src="figs/icosa-sphere.png" width="70%"> |
 | :------------------------------------------------------------------------: | :-----------------------------------------------------------------------: | :------------------------------------------------------------------------: |
 |                         `meshzoo.tetra_sphere(10)`                         |                         `meshzoo.octa_sphere(10)`                         |                         `meshzoo.icosa_sphere(10)`                         |
 
 #### Ball (solid)
 
-| <img src="https://nschloe.github.io/meshzoo/ball-tetra.png" width="70%"> | <img src="https://nschloe.github.io/meshzoo/ball-hexa.png" width="70%"> |
+| <img src="figs/ball-tetra.png" width="70%"> | <img src="figs/ball-hexa.png" width="70%"> |
 | :----------------------------------------------------------------------: | :---------------------------------------------------------------------: |
 
 ```python
@@ -150,7 +150,7 @@ points, cells = meshzoo.ball_hexa(10)
 
 #### Tube
 
-<img src="https://nschloe.github.io/meshzoo/tube.png" width="20%">
+<img src="figs/tube.png" width="20%">
 
 ```python
 import meshzoo
@@ -160,7 +160,7 @@ points, cells = meshzoo.tube(length=1.0, radius=1.0, n=30)
 
 #### Cube
 
-| <img src="https://nschloe.github.io/meshzoo/cube.png" width="70%"> | <img src="https://nschloe.github.io/meshzoo/cube-hexa.png" width="50%"> |
+| <img src="figs/cube.png" width="70%"> | <img src="figs/cube-hexa.png" width="50%"> |
 | :----------------------------------------------------------------: | :---------------------------------------------------------------------: |
 
 ```python
